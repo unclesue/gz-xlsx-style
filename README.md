@@ -1,3 +1,12 @@
+# gz-xlsx-style
+
+只是修改了dist\cpexcel.js文件第807行运行报错的问题
+
+```js
+// var cpt = require('./cpt' + 'able');
+var cpt = cptable
+```
+
 # xlsx-style
 
 Parser and writer for various spreadsheet formats.  Pure-JS cleanroom implementation from official specifications and related documents.
